@@ -1,8 +1,14 @@
-# 基于三轮全向底盘与单轴云台的 移动视觉激光追踪系统
+# 基于三轮全向底盘与单轴云台的移动视觉激光追踪系统
 
 树莓派通过 CSI 摄像头识别 ArUco 标记，使用三轮全向底盘调整水平方向，使用单轴云台调整俯仰。相机和激光模块安装在同一个云台托架上。项目包含基本功能测试、静态追踪和动态追踪三部分。
 
-## 目录结构与项目素材
+## 整机外观
+
+| 外观照片 1 | 外观照片 2 |
+| --- | --- |
+| <img src="assets/outlook/outlook1.jpg" width="280" alt="小车整机外观照片 1"> | <img src="assets/outlook/outlook2.jpg" width="280" alt="小车整机外观照片 2"> |
+
+### 目录结构与项目素材
 
 ```text
 .
@@ -43,12 +49,6 @@
 └── README.md
 ```
 
-### 整机外观
-
-| 外观照片 1 | 外观照片 2 |
-| --- | --- |
-| <img src="assets/outlook/outlook1.jpg" width="280" alt="小车整机外观照片 1"> | <img src="assets/outlook/outlook2.jpg" width="280" alt="小车整机外观照片 2"> |
-
 ### 整机接线与物料
 
 | 整机接线图 | 物料清单（BOM） |
@@ -62,10 +62,56 @@
 | 测试 | 视频 |
 | --- | --- |
 | 基本功能 · 三轮全向底盘 | [底盘动作](assets/demo/基本功能/基本功能地盘demo.mp4) |
+
+
+https://github.com/user-attachments/assets/abbbf7f7-6f05-4946-891a-6ab7c8202d0a
+
+
 | 基本功能 · 云台俯仰 | [舵机动作](assets/demo/基本功能/舵机demo.mp4) |
-| 静态追踪 | [演示 1](assets/demo/静态追踪/静态追踪demo1.mp4) · [演示 2](assets/demo/静态追踪/静态追踪demo2.mp4) · [演示 3](assets/demo/静态追踪/静态追踪demo3.mp4) · [演示 4](assets/demo/静态追踪/静态追踪demo4.mp4) |
+
+
+https://github.com/user-attachments/assets/7ebd1027-8d97-4df4-b162-00668e8b355d
+
+
+| 静态追踪 | [演示 1](assets/demo/静态追踪/静态追踪demo1.mp4) 
+
+
+
+https://github.com/user-attachments/assets/1809ff09-75e1-4837-b139-31c8b2ba0fdd
+
+
+
+| 静态追踪 | [演示 2](assets/demo/静态追踪/静态追踪demo2.mp4) 
+
+
+https://github.com/user-attachments/assets/90f4d010-e45c-4115-bc85-f4e2fdd4a302
+
+
+| 静态追踪 | [演示 3](assets/demo/静态追踪/静态追踪demo3.mp4) 
+
+
+https://github.com/user-attachments/assets/63c9fab9-1d86-43b0-a3f2-0d0a78e774a6
+
+
+| 静态追踪 | [演示 4](assets/demo/静态追踪/静态追踪demo4.mp4) |
+
+
+https://github.com/user-attachments/assets/3b8ca806-716f-4813-a8bd-5efea278ab44
+
+
+
 | 动态追踪 | [动态追踪演示](assets/demo/动态追踪/动态追踪demo.mp4) |
+
+
+https://github.com/user-attachments/assets/f0ef84b7-16b2-4379-b0c3-66b04ca58038
+
+
 | 移动靶追踪 | [移动靶追踪演示](assets/demo/移动靶追踪/移动靶追踪demo.mp4) |
+
+
+https://github.com/user-attachments/assets/5b4f3f4e-d226-42ef-916a-2fb54673a0da
+
+
 
 ### 3D 打印模型
 
