@@ -44,7 +44,7 @@
 │   │   ├── 静态追踪/
 │   │   ├── 动态追踪/
 │   │   └── 移动靶追踪/
-│   └── stl/               # 3D 打印用 STEP 模型
+│   └── .step/               # 3D 打印用 STEP 模型
 ├── QUICKREF.txt
 └── README.md
 ```
@@ -119,10 +119,10 @@ https://github.com/user-attachments/assets/5b4f3f4e-d226-42ef-916a-2fb54673a0da
 
 | 零件 | 模型 |
 | --- | --- |
-| S1 车壳 | [S1_车壳.step](assets/stl/S1_车壳.step) |
-| S2 中层板 | [S2_中层板.step](assets/stl/S2_中层板.step) |
-| S3 顶盖（带舵机舱） | [S3_顶盖_带舵机舱.step](assets/stl/S3_顶盖_带舵机舱.step) |
-| S4 相机与激光托架 | [S4_相机激光托架.step](assets/stl/S4_相机激光托架.step) |
+| S1 车壳 | [S1_车壳.step](assets/.step/S1_车壳.step) |
+| S2 中层板 | [S2_中层板.step](assets/.step/S2_中层板.step) |
+| S3 顶盖（带舵机舱） | [S3_顶盖_带舵机舱.step](assets/.step/S3_顶盖_带舵机舱.step) |
+| S4 相机与激光托架 | [S4_相机激光托架.step](assets/.step/S4_相机激光托架.step) |
 
 ## 三个部分的任务
 
